@@ -1,0 +1,103 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CodePen - 1102期中作業</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/">
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">  
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    
+        
+    <div class="title"name="title">
+        <h1>領主爭霸——規則</h1>
+          
+    </div>
+    <div class="rules" name="rules">
+        <div data-aos="fade-right"class="map">
+            <div class="inform">
+                <i name="intro">玩家將扮演領主擴增領地，增加自己的勢力。
+                    帝國末期，各地梟雄紛紛起義，在這風雨飄搖的時代，無人能夠置身事外，而你也將做為一方領主，來爭奪天下！擴張自己的領地，招募自己的軍隊，發展自己的勢力，吞併他人的一切，是你存活下去的唯一手段
+                    在有限的時間內，利用自己的策略，善用週遭的效果，來贏得勝利吧！</i>
+            <h1>遊戲目標 </h1>
+            <p>遊戲進行3輪，場上領地面積×產業的總和加總/扣除王國勢力點數後最高分的玩家為贏家
+
+            <br>計算方式：
+            <br>            （領地面積×產業）（+/-）王國勢力
+            <br>不同的產業有不同的加權分數：
+            <br><img src="./img/農地.png">農業：4<img src="./img/礦業.png"> 礦業：3 <img src="./img/森林.png">林業：2<img src="./img/商店.png">商業：1<img src="./img/房屋.png">房屋：0
+            
+            </p>
+        </div>
+        </div>
+        <div data-aos="fade-right"class="prop"name="prop">
+            <h1>遊戲配件</h1>
+            <img src="./img/Screenshot 2024-06-06 032344.png" alt="prop">
+            
+            </p>
+        </div>
+        
+        <div data-aos="fade-right"class="map">
+            
+            <div class="inform">
+            <h1>起始設置</h1>
+            <p>1.將王國城堡放置在中間，每位玩家各自選擇領主以及部隊，玩家領主放置在王國城堡，發給每位玩家2張的場地牌，再由起始玩家（年齡最大的玩家）以順時針放置1場地牌。
+                
+                
+            <br>2.將剩餘的場地牌和效果各自洗好擺放充當牌堆。
+            </p>
+        </div>
+        </div>
+        <div data-aos="fade-right"class="map">
+                
+                <div class="inform">
+                <h1>遊戲流程</h1>
+                <p>1.由起始玩家開始抽取一張場地牌進入手牌（上限為2張），在選擇一張放置在地圖上。
+                <img src="./img/Screenshot 2024-06-06 033610.png" alt="">
+                    <br>2.而後移動部隊至少一到三個產業的街區，不可穿越王國城堡
+                <img src="./img/Screenshot 2024-06-06 034101.png" alt="">
+                    <br>3.若部隊所在的位置沒有任何領主標誌，就可以放置一枚領主標誌，來代表佔領該區域。
+                <br>4.若部隊停滯的街區有其他玩家的領主徽章，則必須發動械鬥。攻擊方選擇任意數量手牌，而防守方一樣抽取一張場地牌加入並選擇選擇任意數量手牌。
+                勝負有玩家選擇的手牌對應的產業數量乘上領主點數
+                <br>例如：3張手牌農業共6點x領主3=18
+                <br>對決	2張手牌農業5點×領主4=20
+                <br>攻擊方勝利則取代對方佔領該區域，若如防守方勝利則攻擊方減少該點數的王國勢力。手牌使用後捨棄。
+                <br>5.手牌不足則補充到1張。當擺放有皇家要寨的場地卡時，可從地圖上任意要寨位置移動皇家騎士1至3格區域，該區域的不能進行擴張也無法械鬥，同時放置該卡片的玩家投擲骰子，投擲該產業需要繳稅並減少王國勢力：減少點數為擁有投擲到產業的玩家所佔領的格數。
+
+
+                </p>
+            
+        </div>
+        <div data-aos="fade-right" class="map">
+                <div class="inform">
+                <h1>額外規則！
+                <h3>拼放場地卡規則：
+                </h1>
+                <p>1.不能與原地圖分離，以城堡為起點向四方延伸至上限。
+                    玩家人數對應上限：
+                    
+                <br >2/3/4/5>4/5/5/6
+                <img src="./img/Screenshot 2024-06-06 033727.png" alt="##">
+                <br>2.不可覆蓋城堡，長方形建築
+                <br>3.不可放置地圖改變其他玩家的勢力範圍
+                <br>回合卡：每輪開始由第一位玩家翻開作為此輪的效果，該輪結束則移除效果
+                </p>
+           
+        </div>
+    </div>
+        
+
+    </div>
+    <footer id="contact" class="footer">
+        
+    
+      </footer>
+</body>
+</html>
